@@ -1,15 +1,15 @@
 def fibonacci(num)
   # type your code in here
-  fibonacci_hash = [0, 1]
+  fibonacci_array = [0, 1]
 
   index = 2
 
   while index <= num do
-    fibonacci_hash[index] = fibonacci_hash[index - 1] + fibonacci_hash[index - 2]
+    fibonacci_array[index] = fibonacci_array[index - 1] + fibonacci_array[index - 2]
     index += 1
   end
 
-  fibonacci_hash[num]
+  fibonacci_array[num]
 
 end
 
